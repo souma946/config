@@ -1,3 +1,7 @@
+" See preliminary
+" https://github.com/Shougo/dein.vim#unixlinux-or-mac-os-x
+
+
 " Required:
 set runtimepath+=$HOME/.cache/dein/repos/github.com/Shougo/dein.vim
 
