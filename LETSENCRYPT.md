@@ -75,3 +75,15 @@ lrwxrwxrwx 1 root root   50 Jan  1 15:57 fullchain.pem -> ../../archive/<証明�
 lrwxrwxrwx 1 root root   48 Jan  1 15:57 privkey.pem -> ../../archive/<証明書を作成したいFQDN>/privkey1.pem
 
 ```
+
+## ファイル
+| ファイル名 | 内容 |
+---- | ---- 
+| cert.pem | サーバー証明書 |
+| chain.pem | 中間証明書 |
+| fullchain.pem | 証明書と中間証明書が結合されたファイル | 
+| private.pem | 秘密鍵 | 
+
+## 参考情報
+- https://hawksnowlog.blogspot.com/2018/08/certbot-dns-challenge-on-mac.html
+- https://laboradian.com/try-lets-encrypt/
