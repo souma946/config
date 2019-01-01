@@ -62,3 +62,16 @@ IMPORTANT NOTES:
    Donating to EFF:                    https://eff.org/donate-le
 
 ```
+
+## 作成された証明書の場所
+```shell
+ls -al /etc/letsencrypt/live/<証明書を作成したいFQDN>/
+drwxr-xr-x 2 root root 4096 Jan  1 15:57 .
+drwx------ 3 root root 4096 Jan  1 15:57 ..
+-rw-r--r-- 1 root root  692 Jan  1 15:57 README
+lrwxrwxrwx 1 root root   45 Jan  1 15:57 cert.pem -> ../../archive/<証明書を作成したいFQDN>/cert1.pem
+lrwxrwxrwx 1 root root   46 Jan  1 15:57 chain.pem -> ../../archive/<証明書を作成したいFQDN>/chain1.pem
+lrwxrwxrwx 1 root root   50 Jan  1 15:57 fullchain.pem -> ../../archive/<証明書を作成したいFQDN>/fullchain1.pem
+lrwxrwxrwx 1 root root   48 Jan  1 15:57 privkey.pem -> ../../archive/<証明書を作成したいFQDN>/privkey1.pem
+
+```
