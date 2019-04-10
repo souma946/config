@@ -47,4 +47,5 @@ set fileformats=unix,mac,dos
 colorscheme darkblue
 set noundofile
 set nobackup
+set statusline=%<%f\ %m%r%h%w%{'['.(&fenc!=''?&fenc:&enc).']['.&ff.']'}%=%l,%c%V%8P
 
