@@ -49,3 +49,15 @@ set noundofile
 set nobackup
 set statusline=%<%f\ %m%r%h%w%{'['.(&fenc!=''?&fenc:&enc).']['.&ff.']'}%=%l,%c%V%8P
 
+"----------------------------------------------------------
+" status line
+"----------------------------------------------------------
+set laststatus=2 " always display
+set showmode " display current mode
+set showcmd " display inputted command
+set ruler " display the current position 
+
+"----------------------------------------------------------
+" clipboard
+"----------------------------------------------------------
+set clipboard=unnamedplus
